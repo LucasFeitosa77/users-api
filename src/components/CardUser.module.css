@@ -1,0 +1,42 @@
+.card-user{
+    background-color: #6a45ff;
+    width: 450px;
+    height: auto;
+    color: #000;
+    
+    display: block;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px #413c3c;
+    margin-bottom: 30px;
+    
+    .main-profile{
+        display: inline-flex;
+        width: 95%;
+        justify-content:space-evenly;
+        align-items: center;
+        border-bottom: dashed #5213f3;
+    }
+    
+    .card-user_details{
+        display: block;
+        color:#fff;
+
+        .card-user_info {
+            color: #e2e1e4;
+        }
+    }
+
+    .details-profile {
+        display:block;
+        align-items: center;
+        justify-content: center;
+        text-align:start;
+        padding-bottom: 5px;
+        color: #bfaeff;
+
+        p {
+            margin-left: 15px;
+        }
+
+    }
+}

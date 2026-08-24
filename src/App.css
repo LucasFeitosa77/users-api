@@ -1,0 +1,17 @@
+.App {
+  background-color: #fff;
+}
+
+.title, .contador {
+  color: #000;
+}
+
+.grade {
+    display: inline-flex;
+    margin: auto; 
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+
+}
