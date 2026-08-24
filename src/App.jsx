@@ -9,7 +9,7 @@ function App() {
   const [lista, setLista] = useState([])
 
   useEffect(() => {
-    fetch('https://dummyjson.com/users?limit=5')
+    fetch('https://dummyjson.com/users?limit=30')
       .then((response) => response.json())
       .then((data) => setLista(data.users))
   }, [])
